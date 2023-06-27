@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+.messageBox{
+    max-width: 300px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 14px;
+    padding-left: 2%;
+    /* display: inline-block; */
+    clear: both;
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.right{
+    float: right;
+    background-color: rgb(47, 47, 49);
+    color: white;
+}
+
+.left{
+    float: left;
+    background-color:  rgb(63, 63, 63);
+    color: white;
+}
